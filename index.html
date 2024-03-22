@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Search for city" spellcheck="false">
+            <button><img src="images/search-removebg-preview (1).png" alt="this is icon for search button" ></button>
+
+        </div>
+
+    <div class="error">
+        <p>Invalid City Name</p>
+        <img src="images/communication.png" alt="Not found" width="300px" height="300px">
+    </div>
+        <div class="weather">
+            <img src="images/rainy-day.png" alt="weather icon" class="weather-icon" width="200px" height="200px">
+            <h1 class="temp">12°C<h1>
+                <h2 class="city">Delhi</h2>
+                <div class="details">
+                    
+                    <div class="col1"><img src="images/—Pngtree—vector humidity icon_4002850.png" alt="humidity" width="50px" height="50px">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col2"><img src="images/win.png" alt="wind" width="40px" height="40px">
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                       </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="weather.js"></script>
+</body>
+</html>
